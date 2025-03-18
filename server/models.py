@@ -1,27 +1,26 @@
-from dataclasses import dataclass, field
-from typing import List, Dict
+from flask_sqlalchemy import SQLAlchemy
+from pydantic import BaseModel, ValidationError
+from typing import List
+
+db = SQLAlchemy()
 
 
-@dataclass
-class Agent:
-    """Data class for storing agent details"""
+class AgentModel(db.Model):
+    """SQLAlchemy model for database structure."""
+    id = db.Column(db.Integer, primary_key=True)
+    hostname = db.Column(db.String(100), nullable=False)
+    ip = db.Column(db.String(15), nullable=False)
+    os = db.Column(db.String(50), nullable=False)
+    os_version = db.Column(db.String(50), nullable=False)
+    python_version = db.Column(db.String(10), nullable=False)
+    installed_software = db.Column(db.String(500))  # Stored as JSON string
+
+
+class AgentSchema(BaseModel):
+    """Pydantic model for strict data validation."""
     hostname: str
     ip: str
     os: str
     os_version: str
-    agent_version: str
     python_version: str
-    installed_software: List[str] = field(default_factory=list)
-
-    @classmethod
-    def from_json(cls, data: Dict):
-        """Extracts and creates an Agent object from JSON data"""
-        return cls(
-            hostname=data.get("hostname", "Unknown"),
-            ip=data.get("ip", "Unknown"),
-            os=data.get("os", "Unknown"),
-            os_version=data.get("os_version", "Unknown"),
-            agent_version=data.get("agent_version", "Unknown"),
-            python_version=data.get("python_version", "Unknown"),
-            installed_software=data.get("installed_software", [])
-        )
+    installed_software: List[str]
