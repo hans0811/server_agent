@@ -1,0 +1,6 @@
+{
+    "server_version": "v1.0",
+    "server_IP": "10.100.10.2",
+    "server_port": 5001,
+    "schedule": 1
+}
