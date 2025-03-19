@@ -10,6 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
+            steps {
                 script {
                     checkout scm
                 }
@@ -67,7 +68,7 @@ pipeline {
         stage('Push to Docker Hub') {
             steps {
                 script {
-                    withCredentials([usernamePassword(credentialsId: 'docker-hub-credentials', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                    withCredentials([usernamePassword(credentialsId: ${DOCKER_REGISTRY_CREDENTIALS}, usernameVariable: 'chaimarket0811', passwordVariable: 'Tsai0811')]) {
                         sh "echo ${DOCKER_PASS} | docker login -u ${DOCKER_USER} --password-stdin"
                         sh "docker push ${IMAGE_NAME}:${env.IMAGE_TAG}"
                         sh "docker push ${IMAGE_NAME}:latest"
