@@ -1,33 +1,80 @@
 pipeline {
     agent any
 
+    environment {
+        IMAGE_NAME = "your-dockerhub-username/your-image-name"
+        CONTAINER_NAME = "test-container"
+        DOCKER_REGISTRY_CREDENTIALS = "docker-hub-credentials"  // Set this in Jenkins credentials
+    }
+
     stages {
-        stage('Git Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-        stage('Print Branch') {
+        stage('Checkout Code') {
             steps {
                 script {
-                    echo "Branch: ${env.GIT_BRANCH}"
+                    checkout scm
                 }
             }
         }
-        stage('Build') {
+
+        stage('Print Branch & Generate Version') {
             steps {
-                echo 'Build ...'
+                script {
+                    def branch = sh(script: "git rev-parse --abbrev-ref HEAD", returnStdout: true).trim()
+                    def commitHash = sh(script: "git rev-parse --short HEAD", returnStdout: true).trim()
+                    def buildNumber = env.BUILD_NUMBER  // Jenkins build number
+                    
+                    env.IMAGE_TAG = "${branch}-${buildNumber}-${commitHash}"  // Example: main-23-a1b2c3d
+                    echo "Current Git Branch: ${branch}"
+                    echo "Docker Image Tag: ${env.IMAGE_TAG}"
+                }
             }
         }
-        stage('Upload to S3') {
+
+        stage('Build Docker Image') {
             steps {
-                echo 'Upload ...'
+                script {
+                    sh "docker build -t ${IMAGE_NAME}:${env.IMAGE_TAG} -f server/Dockerfile server/"
+                    sh "docker tag ${IMAGE_NAME}:${env.IMAGE_TAG} ${IMAGE_NAME}:latest"
+                }
             }
         }
-        stage('Deploy') {
+
+        stage('Run Container') {
             steps {
-                echo 'Deploy ...'
+                script {
+                    sh "docker run -d --name ${CONTAINER_NAME} ${IMAGE_NAME}:${env.IMAGE_TAG}"
+                }
             }
+        }
+
+        stage('Run Pytest') {
+            steps {
+                script {
+                    def testResult = sh(script: "docker exec ${CONTAINER_NAME} pytest", returnStatus: true)
+                    if (testResult != 0) {
+                        error "Tests failed, stopping pipeline"
+                    }
+                }
+            }
+        }
+
+        stage('Push to Docker Hub') {
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: 'docker-hub-credentials', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                        sh "echo ${DOCKER_PASS} | docker login -u ${DOCKER_USER} --password-stdin"
+                        sh "docker push ${IMAGE_NAME}:${env.IMAGE_TAG}"
+                        sh "docker push ${IMAGE_NAME}:latest"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            sh "docker stop ${CONTAINER_NAME} || true"
+            sh "docker rm ${CONTAINER_NAME} || true"
         }
     }
 }
