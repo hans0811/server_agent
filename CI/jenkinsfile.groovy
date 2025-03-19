@@ -68,7 +68,7 @@ pipeline {
         stage('Push to Docker Hub') {
             steps {
                 script {
-                    withCredentials([usernamePassword(credentialsId: "${DOCKER_REGISTRY_CREDENTIALS}", usernameVariable: 'chaimarket0811', passwordVariable: 'Tsai0811')]) {
+                    withCredentials([usernamePassword(credentialsId: 'ea28467c-f20e-42c0-9af0-32615666532c', usernameVariable: 'chaimarket0811', passwordVariable: 'Tsai0811')]) {
                         sh "echo ${DOCKER_PASS} | docker login -u ${DOCKER_USER} --password-stdin"
                         sh "docker push ${IMAGE_NAME}:${env.IMAGE_TAG}"
                         sh "docker push ${IMAGE_NAME}:latest"
