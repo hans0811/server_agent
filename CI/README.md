@@ -49,9 +49,12 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ```
 
-## Integrate with your tools
+## Docker
 
 - [ ] [Set up project integrations](http://192.168.65.30/cicd/ci/-/settings/integrations)
+
+sudo vi /etc/docker/daemon.json
+
 
 ## Collaborate with your team
 
