@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify
+from flask import jsonify
 
 def setup_routes(app):
     @app.route("/api/get_status", methods=["GET"])

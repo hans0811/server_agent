@@ -6,7 +6,8 @@ BASE_URL = "http://127.0.0.1:5001/api"
 STATUS_URL = f"{BASE_URL}/get_status"
 AGENT_REPORT_URL = f"{BASE_URL}/agent_report"
 
-def test_aserver_status():
+
+def test_server_status():
     """Test API with valid server data."""
     response = requests.get(STATUS_URL)
     assert response.status_code == 200
@@ -14,6 +15,7 @@ def test_aserver_status():
     response_dict = json.loads(response.text)  # Convert response text to dictionary
     assert "status" in response_dict
     assert response_dict["status"] == "ok"
+
 
 def test_valid_agent_report():
     """Test API with valid agent data."""
@@ -32,6 +34,7 @@ def test_valid_agent_report():
     response_dict = json.loads(response.text)
     assert response_dict["message"] == "Agent data received"
 
+
 def test_invalid_os():
     """Test API with invalid OS data."""
     payload = {
@@ -45,6 +48,7 @@ def test_invalid_os():
 
     response_dict = json.loads(response.text)
     assert "error" in response_dict
+
 
 def test_missing_fields():
     """Test API with missing required fields."""
