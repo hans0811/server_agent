@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "chaimarket0811/serverflask"
         CONTAINER_NAME = "serverflask"
-        DOCKER_REGISTRY_CREDENTIALS = "docker-hub-credentials"  // Set this in Jenkins credentials
+        DOCKER_REGISTRY_CREDENTIALS = "ea28467c-f20e-42c0-9af0-32615666532c"  // Set this in Jenkins credentials
     }
 
     stages {
