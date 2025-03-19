@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "your-dockerhub-username/your-image-name"
-        CONTAINER_NAME = "test-container"
+        IMAGE_NAME = "chaimarket0811/serverflask"
+        CONTAINER_NAME = "serverflask"
         DOCKER_REGISTRY_CREDENTIALS = "docker-hub-credentials"  // Set this in Jenkins credentials
     }
 
@@ -27,6 +27,12 @@ pipeline {
                     echo "Current Git Branch: ${branch}"
                     echo "Docker Image Tag: ${env.IMAGE_TAG}"
                 }
+            }
+        }
+
+        stage('Test Docker') {
+            steps {
+                sh 'docker images'
             }
         }
 
