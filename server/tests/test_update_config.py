@@ -1,7 +1,7 @@
 import pytest
 import requests
 
-BASE_URL = "http://localhost:5002"  # Change if your Flask app runs on a different port
+BASE_URL = "http://agentFlask:5002"  # Change if your Flask app runs on a different port
 
 
 @pytest.fixture(autouse=True)
