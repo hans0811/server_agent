@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  server:
+    image: chaimarket0811/serverflask:latest
+    container_name: server
+    ports:
+      - "5001:5001"
+    environment:
+      - AGENT_URL=http://agent:5002
+    depends_on:
+      - agent
+    networks:
+      - app_network
+
+  agent:
+    image: chaimarket0811/agentflask:latest
+    container_name: agent
+    ports:
+      - "5002:5002"
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
