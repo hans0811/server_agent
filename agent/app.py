@@ -3,8 +3,8 @@ import logging
 from flask import Flask, request, jsonify
 from logging.handlers import RotatingFileHandler
 
-from agent.agent_mock import get_agent_info
-from agent.utility import load_config, get_installed_software, save_config
+from agent_mock import get_agent_info
+from utility import load_config, get_installed_software, save_config
 
 # Constants
 LOG_FILE = "./agent.log"

@@ -1,5 +1,5 @@
 # Get agent info (mock different OS)
-from agent.utility import get_installed_software, load_config
+from utility import get_installed_software, load_config
 
 
 def get_agent_info(agent_id):
