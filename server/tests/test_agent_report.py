@@ -26,7 +26,8 @@ def test_valid_agent_report():
         "os_version": "Ubuntu 20.04",
         "ip": "192.168.1.100",
         "python_version": "3.9",
-        "installed_software": ["jenkins", "docker"]
+        "installed_software": ["jenkins", "docker"],
+        "timestamp": 1710873456
     }
     response = requests.post(AGENT_REPORT_URL, json=payload)
     assert response.status_code == 200
