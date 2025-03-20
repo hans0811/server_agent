@@ -49,6 +49,14 @@ pipeline {
             steps {
                 script {
                     sh "docker run -d --name ${CONTAINER_NAME} ${IMAGE_NAME}:${env.IMAGE_TAG}"
+
+                    sleep 5
+                    def containerStatus = sh(script: "docker ps --filter 'name=${CONTAINER_NAME}' --format '{{.Names}}'", returnStdout: true).trim()
+                    if (containerStatus != "${CONTAINER_NAME}") {
+                        error "Container failed to start!"
+                    }
+
+                    echo "Container ${CONTAINER_NAME} is running successfully."
                 }
             }
         }
