@@ -13,7 +13,7 @@ log_dir = "logs"
 #os.makedirs(log_dir, exist_ok=True)  # Ensure the logs directory exists
 
 logging.basicConfig(
-    filename="'server/logs/server.log'",  # Save logs inside logs/
+    filename="'server.log'",  # Save logs inside logs/
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
