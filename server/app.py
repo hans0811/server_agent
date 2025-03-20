@@ -1,12 +1,19 @@
 import logging
-from flask import Flask, request, jsonify
-from models import db, AgentModel, AgentSchema
-from pydantic import ValidationError
-from config import Config
+import os
 
-# Configure logging
+from flask import Flask, request, jsonify
+from pydantic import ValidationError
+
+from agent_models import AgentSchema, load_data, save_data
+
+# Constants
+AGENT_DATA_FILE = "agent_data.json"
+
+log_dir = "logs"
+# os.makedirs(log_dir, exist_ok=True)  # Ensure the logs directory exists
+
 logging.basicConfig(
-    filename="server.log",
+    filename=os.path.join(log_dir, "server.log"),  # Save logs inside logs/
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
@@ -16,11 +23,13 @@ def create_app():
     """Create and configure the Flask app."""
     app = Flask(__name__)
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"  # Persistent SQLite
-    app.config.from_object(Config)
-    db.init_app(app)
+    # app.config.from_object(Config)
+    #db.init_app(app)
 
-    with app.app_context():
-        db.create_all()  # Ensure tables exist
+    logging.info("Starting run app...")
+
+    # with app.app_context():
+    #     db.create_all()  # Ensure tables exist
 
     @app.route("/api/get_status", methods=["GET"])
     def server_status():
@@ -28,7 +37,7 @@ def create_app():
 
     @app.route("/api/agent_report", methods=["POST"])
     def agent_report():
-        """Receive and validate agent data using Pydantic & SQLAlchemy."""
+        """Receive and validate agent data using Pydantic and store in JSON file."""
         try:
             data = request.get_json()
             if not data:
@@ -38,17 +47,12 @@ def create_app():
             # Validate data with Pydantic
             agent_data = AgentSchema(**data)
 
-            # Store in the database
-            agent = AgentModel(
-                hostname=agent_data.hostname,
-                ip=agent_data.ip,
-                os=agent_data.os,
-                os_version=agent_data.os_version,
-                python_version=agent_data.python_version,
-                installed_software=",".join(agent_data.installed_software),
-            )
-            db.session.add(agent)
-            db.session.commit()
+            # Load existing data
+            agent_store = load_data(AGENT_DATA_FILE)
+
+            # Save new agent data
+            agent_store[agent_data.agent_id] = agent_data.model_dump()
+            save_data(AGENT_DATA_FILE, agent_store)
 
             logging.info(f"Agent data saved: {agent_data}")
             return jsonify({"status": "ok", "message": "Agent data received"}), 200

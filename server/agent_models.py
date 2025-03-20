@@ -1,10 +1,14 @@
+import json
+import os
 import uuid
+from datetime import datetime
 from uuid import UUID
 
 from flask_sqlalchemy import SQLAlchemy
-from pydantic import BaseModel, ValidationError
+from pydantic import BaseModel, ValidationError, field_validator, validator
 from typing import List
 from sqlalchemy.dialects.postgresql import JSON
+
 db = SQLAlchemy()
 
 
@@ -21,9 +25,31 @@ class AgentModel(db.Model):
 
 class AgentSchema(BaseModel):
     """Pydantic model for strict data validation."""
+    agent_id: str
     hostname: str
     ip: str
     os: str
     os_version: str
     python_version: str
     installed_software: List[str]
+    timestamp: str
+
+    @field_validator("timestamp", mode="before")
+    @classmethod
+    def convert_unix_to_datetime(cls, value):
+        """Automatically convert Unix timestamp to datetime string"""
+        print(value)
+        return datetime.utcfromtimestamp(value).strftime('%Y-%m-%d %H:%M:%S')
+
+
+def load_data(file_path):
+    if os.path.exists(file_path):
+        with open(file_path, "r") as file:
+            return json.load(file)
+    return {}
+
+
+# Save data to file
+def save_data(file_path, data):
+    with open(file_path, "w") as file:
+        json.dump(data, file, indent=4)
