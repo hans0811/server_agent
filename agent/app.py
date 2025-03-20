@@ -43,5 +43,4 @@ def update_config(agent_id):
 if __name__ == "__main__":
     save_config(load_config())  # Ensure config file exists
     logger.info("Agent started")
-
     app.run(host="0.0.0.0", port=5002, debug=True)
