@@ -18,14 +18,16 @@ This project consists of a **Server** and multiple **Agents** that communicate v
 
 ---
 
-## 📦 Setup & Deployment
+## Setup & Deployment
 
-### 1️⃣ Clone Repository
+### Clone Repository
 ```sh
-git clone https://github.com/your-repo/server-agent.git
-cd server-agent
+git clone https://github.com/hans0811/server_agent/tree/TestGithub
+```
 
 
+### Quick Deploy
+```sh
+docker-compose up
+```
 
-
-sudo vi /etc/docker/daemon.json
