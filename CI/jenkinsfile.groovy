@@ -48,7 +48,7 @@ pipeline {
         stage('Run Container') {
             steps {
                 script {
-                    sh "docker run -d --name ${CONTAINER_NAME} ${IMAGE_NAME}:${env.IMAGE_TAG}"
+                    sh "docker run -d --network my_network --name ${CONTAINER_NAME} ${IMAGE_NAME}:${env.IMAGE_TAG}"
 
                     sleep 5
                     def containerStatus = sh(script: "docker ps --filter 'name=${CONTAINER_NAME}' --format '{{.Names}}'", returnStdout: true).trim()
