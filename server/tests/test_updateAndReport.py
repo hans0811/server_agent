@@ -6,7 +6,7 @@ import pytest
 import requests
 
 SERVER_URL = "http://127.0.0.1:5001/api"
-AGENT_URL = "http://127.0.0.1:5002"
+AGENT_URL = "http://agentFlask:5002"
 # Get absolute path of agent_data.json
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Get /server/tests
 AGENT_DATA_PATH = os.path.join(BASE_DIR, "../agent_data.json")  # Move up to /server
