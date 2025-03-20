@@ -21,7 +21,7 @@ def test_valid_agent_report():
     """Test API with valid agent data."""
     payload = {
         "hostname": "test.com",
-        "agent_id": "123",
+        "agent_id": "A0001",
         "os": "Linux",
         "os_version": "Ubuntu 20.04",
         "ip": "192.168.1.100",

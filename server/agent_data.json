@@ -1,54 +1,7 @@
 {
-    "test.com": {
-        "hostname": "test.com",
-        "ip": "192.168.1.100",
-        "os": "Linux",
-        "os_version": "Ubuntu 20.04",
-        "python_version": "3.9",
-        "installed_software": [
-            "jenkins",
-            "docker"
-        ]
-    },
-    "test1.com": {
-        "hostname": "test1.com",
-        "ip": "192.168.1.100",
-        "os": "Linux",
-        "os_version": "Ubuntu 20.04",
-        "python_version": "3.9",
-        "installed_software": [
-            "jenkins",
-            "docker"
-        ]
-    },
-    "test2.com": {
-        "agent_id": "A00001",
-        "hostname": "test2.com",
-        "ip": "192.168.1.100",
-        "os": "Linux",
-        "os_version": "Ubuntu 20.04",
-        "python_version": "3.9",
-        "installed_software": [
-            "jenkins",
-            "docker"
-        ]
-    },
     "A00001": {
         "agent_id": "A00001",
         "hostname": "test2.com",
-        "ip": "192.168.1.100",
-        "os": "Linux",
-        "os_version": "Ubuntu 20.04",
-        "python_version": "3.9",
-        "installed_software": [
-            "jenkins",
-            "docker"
-        ],
-        "timestamp": "2024-03-19 18:37:36"
-    },
-    "123": {
-        "agent_id": "123",
-        "hostname": "test.com",
         "ip": "192.168.1.100",
         "os": "Linux",
         "os_version": "Ubuntu 20.04",
