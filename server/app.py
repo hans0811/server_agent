@@ -10,10 +10,10 @@ from agent_models import AgentSchema, load_data, save_data
 AGENT_DATA_FILE = "agent_data.json"
 
 log_dir = "logs"
-# os.makedirs(log_dir, exist_ok=True)  # Ensure the logs directory exists
+#os.makedirs(log_dir, exist_ok=True)  # Ensure the logs directory exists
 
 logging.basicConfig(
-    filename=os.path.join(log_dir, "server.log"),  # Save logs inside logs/
+    filename="'/app/server/logs/server.log'",  # Save logs inside logs/
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
