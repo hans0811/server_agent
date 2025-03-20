@@ -1,6 +1,7 @@
 import logging
 import os
 
+import requests
 from flask import Flask, request, jsonify
 from pydantic import ValidationError
 
@@ -8,9 +9,10 @@ from agent_models import AgentSchema, load_data, save_data
 
 # Constants
 AGENT_DATA_FILE = "agent_data.json"
+AGENT_URL = "http://agentFlask:5002"
 
 log_dir = "logs"
-#os.makedirs(log_dir, exist_ok=True)  # Ensure the logs directory exists
+
 
 logging.basicConfig(
     filename="'server.log'",  # Save logs inside logs/
@@ -24,7 +26,7 @@ def create_app():
     app = Flask(__name__)
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"  # Persistent SQLite
     # app.config.from_object(Config)
-    #db.init_app(app)
+    # db.init_app(app)
 
     logging.info("Starting run app...")
 
@@ -64,7 +66,29 @@ def create_app():
             logging.critical(f"Unexpected error: {e}", exc_info=True)
             return jsonify({"error": "Unexpected error occurred"}), 500
 
+    @app.route("/api/update_agent_config", methods=["POST"])
+    def update_gent_config():
+        """Server calls agent API to update config"""
+        data = request.get_json()
+        agent_id = data.get("agent_id")
+        new_config = data.get("config")
+
+        if not agent_id or not new_config:
+            return jsonify({"error": "Missing agent_id or config"}), 400
+
+        result = update_agent_config(agent_id, new_config)
+        return jsonify(result)
     return app
+
+def update_agent_config(agent_id, new_config):
+    """Update the agent's configuration via API."""
+    url = f"{AGENT_URL}/{agent_id}/api/update_config"
+    try:
+        response = requests.post(url, json=new_config)
+        response.raise_for_status()  # Raise exception for HTTP errors
+        return response.json()
+    except requests.RequestException as e:
+        return {"error": f"Failed to update agent {agent_id}: {str(e)}"}
 
 
 if __name__ == "__main__":
