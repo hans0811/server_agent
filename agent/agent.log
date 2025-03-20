@@ -1,0 +1,852 @@
+2025-03-20 11:16:16,979 - INFO - Agent started
+2025-03-20 11:16:17,097 - INFO - Agent started
+2025-03-20 11:16:35,260 - INFO - Agent started
+2025-03-20 11:16:35,422 - INFO - Agent started
+2025-03-20 11:16:43,656 - INFO - Received request for A0003 info
+2025-03-20 12:31:40,324 - INFO - Agent started
+2025-03-20 12:33:43,680 - INFO - Agent started
+2025-03-20 13:21:56,625 - INFO - Agent started
+2025-03-20 13:31:14,203 - INFO - Agent started
+2025-03-20 13:31:14,365 - INFO - Agent started
+2025-03-20 13:31:24,302 - INFO - Received request for A0002 info
+2025-03-20 13:31:29,301 - INFO - Start to update A0001 config
+2025-03-20 13:31:29,302 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:31:29,304 - INFO - Start to update A0001 config
+2025-03-20 13:31:29,304 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:31:29,305 - INFO - Received request for A0001 info
+2025-03-20 13:31:29,331 - INFO - Start to update A0001 config
+2025-03-20 13:31:29,331 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:33:24,220 - INFO - Agent started
+2025-03-20 13:33:33,799 - INFO - Agent started
+2025-03-20 13:33:38,632 - INFO - Start to update A0001 config
+2025-03-20 13:33:38,632 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:33:38,634 - INFO - Start to update A0001 config
+2025-03-20 13:33:38,634 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:33:38,636 - INFO - Received request for A0001 info
+2025-03-20 13:33:38,660 - INFO - Start to update A0001 config
+2025-03-20 13:33:38,660 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:34:00,825 - INFO - Start to update A0001 config
+2025-03-20 13:34:00,826 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:34:00,830 - INFO - Start to update A0001 config
+2025-03-20 13:34:00,830 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:34:00,833 - INFO - Received request for A0001 info
+2025-03-20 13:34:42,550 - INFO - Start to update A0001 config
+2025-03-20 13:34:42,551 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:34:46,818 - INFO - Agent started
+2025-03-20 13:34:46,890 - INFO - Start to update A0001 config
+2025-03-20 13:34:46,891 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:34:46,893 - INFO - Start to update A0001 config
+2025-03-20 13:34:46,894 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:34:46,895 - INFO - Received request for A0001 info
+2025-03-20 13:34:47,135 - INFO - Start to update A0001 config
+2025-03-20 13:34:47,135 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:38:22,639 - INFO - Agent started
+2025-03-20 13:40:36,332 - INFO - Agent started
+2025-03-20 13:40:54,666 - INFO - Agent started
+2025-03-20 13:41:41,692 - INFO - Agent started
+2025-03-20 13:42:36,394 - INFO - Agent started
+2025-03-20 13:42:49,819 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,819 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,821 - INFO - Start to update A0002 config
+2025-03-20 13:42:49,821 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,822 - INFO - Start to update A0003 config
+2025-03-20 13:42:49,823 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,824 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,824 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:42:49,825 - INFO - Received request for A0001 info
+2025-03-20 13:42:49,845 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,846 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,847 - INFO - Start to update A0002 config
+2025-03-20 13:42:49,848 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,849 - INFO - Start to update A0003 config
+2025-03-20 13:42:49,849 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,851 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,851 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,852 - INFO - Start to update A0002 config
+2025-03-20 13:42:49,853 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,854 - INFO - Start to update A0003 config
+2025-03-20 13:42:49,854 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,856 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,856 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:42:49,858 - INFO - Received request for A0001 info
+2025-03-20 13:42:49,864 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,865 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,867 - INFO - Start to update A0002 config
+2025-03-20 13:42:49,867 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,869 - INFO - Start to update A0003 config
+2025-03-20 13:42:49,869 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,872 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,872 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,873 - INFO - Start to update A0002 config
+2025-03-20 13:42:49,873 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,874 - INFO - Start to update A0003 config
+2025-03-20 13:42:49,875 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,876 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,876 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:42:49,877 - INFO - Received request for A0001 info
+2025-03-20 13:42:49,884 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,884 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,885 - INFO - Start to update A0002 config
+2025-03-20 13:42:49,886 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,887 - INFO - Start to update A0003 config
+2025-03-20 13:42:49,887 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,889 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,889 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,891 - INFO - Received request for A0001 info
+2025-03-20 13:42:49,894 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,894 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,895 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,895 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:42:49,897 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,897 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:42:49,898 - INFO - Received request for A0001 info
+2025-03-20 13:42:49,900 - INFO - Start to update A0001 config
+2025-03-20 13:42:49,900 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:23,077 - INFO - Agent started
+2025-03-20 13:43:26,874 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,875 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,878 - INFO - Start to update A0002 config
+2025-03-20 13:43:26,878 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,879 - INFO - Start to update A0003 config
+2025-03-20 13:43:26,880 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,881 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,881 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:26,882 - INFO - Received request for A0001 info
+2025-03-20 13:43:26,905 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,905 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,906 - INFO - Start to update A0002 config
+2025-03-20 13:43:26,906 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,907 - INFO - Start to update A0003 config
+2025-03-20 13:43:26,908 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,909 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,909 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,911 - INFO - Start to update A0002 config
+2025-03-20 13:43:26,911 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,912 - INFO - Start to update A0003 config
+2025-03-20 13:43:26,912 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,913 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,913 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:26,914 - INFO - Received request for A0001 info
+2025-03-20 13:43:26,921 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,921 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,922 - INFO - Start to update A0002 config
+2025-03-20 13:43:26,922 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,924 - INFO - Start to update A0003 config
+2025-03-20 13:43:26,924 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,925 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,925 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,926 - INFO - Start to update A0002 config
+2025-03-20 13:43:26,927 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,928 - INFO - Start to update A0003 config
+2025-03-20 13:43:26,928 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,929 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,929 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:26,930 - INFO - Received request for A0001 info
+2025-03-20 13:43:26,936 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,936 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,937 - INFO - Start to update A0002 config
+2025-03-20 13:43:26,938 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,939 - INFO - Start to update A0003 config
+2025-03-20 13:43:26,939 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,940 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,941 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,942 - INFO - Received request for A0001 info
+2025-03-20 13:43:26,944 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,945 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,946 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,946 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:26,948 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,948 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:26,949 - INFO - Received request for A0001 info
+2025-03-20 13:43:26,950 - INFO - Start to update A0001 config
+2025-03-20 13:43:26,950 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:42,509 - INFO - Agent started
+2025-03-20 13:43:44,311 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,312 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,314 - INFO - Start to update A0002 config
+2025-03-20 13:43:44,314 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,316 - INFO - Start to update A0003 config
+2025-03-20 13:43:44,316 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,318 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,318 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:44,319 - INFO - Received request for A0001 info
+2025-03-20 13:43:44,340 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,341 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,343 - INFO - Start to update A0002 config
+2025-03-20 13:43:44,343 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,345 - INFO - Start to update A0003 config
+2025-03-20 13:43:44,345 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,347 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,347 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,349 - INFO - Start to update A0002 config
+2025-03-20 13:43:44,349 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,350 - INFO - Start to update A0003 config
+2025-03-20 13:43:44,350 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,351 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,352 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:44,353 - INFO - Received request for A0001 info
+2025-03-20 13:43:44,358 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,358 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,359 - INFO - Start to update A0002 config
+2025-03-20 13:43:44,359 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,361 - INFO - Start to update A0003 config
+2025-03-20 13:43:44,361 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,363 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,363 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,370 - INFO - Start to update A0002 config
+2025-03-20 13:43:44,371 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,375 - INFO - Start to update A0003 config
+2025-03-20 13:43:44,376 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,384 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,384 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:44,389 - INFO - Received request for A0001 info
+2025-03-20 13:43:44,400 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,400 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,401 - INFO - Start to update A0002 config
+2025-03-20 13:43:44,402 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,403 - INFO - Start to update A0003 config
+2025-03-20 13:43:44,403 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,405 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,406 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,407 - INFO - Received request for A0001 info
+2025-03-20 13:43:44,410 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,410 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,412 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,412 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:43:44,413 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,413 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:43:44,414 - INFO - Received request for A0001 info
+2025-03-20 13:43:44,416 - INFO - Start to update A0001 config
+2025-03-20 13:43:44,416 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:01,955 - INFO - Agent started
+2025-03-20 13:44:19,377 - INFO - Agent started
+2025-03-20 13:44:26,597 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,597 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,600 - INFO - Start to update A0002 config
+2025-03-20 13:44:26,600 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,603 - INFO - Start to update A0003 config
+2025-03-20 13:44:26,604 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,605 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,606 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:44:26,607 - INFO - Received request for A0001 info
+2025-03-20 13:44:26,628 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,628 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,630 - INFO - Start to update A0002 config
+2025-03-20 13:44:26,630 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,631 - INFO - Start to update A0003 config
+2025-03-20 13:44:26,631 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,633 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,633 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,634 - INFO - Start to update A0002 config
+2025-03-20 13:44:26,634 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,635 - INFO - Start to update A0003 config
+2025-03-20 13:44:26,635 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,637 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,637 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:44:26,638 - INFO - Received request for A0001 info
+2025-03-20 13:44:26,643 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,643 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,644 - INFO - Start to update A0002 config
+2025-03-20 13:44:26,645 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,646 - INFO - Start to update A0003 config
+2025-03-20 13:44:26,646 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,648 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,648 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,649 - INFO - Start to update A0002 config
+2025-03-20 13:44:26,649 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,650 - INFO - Start to update A0003 config
+2025-03-20 13:44:26,650 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,652 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,652 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:44:26,653 - INFO - Received request for A0001 info
+2025-03-20 13:44:26,657 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,657 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,658 - INFO - Start to update A0002 config
+2025-03-20 13:44:26,659 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,660 - INFO - Start to update A0003 config
+2025-03-20 13:44:26,660 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,661 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,661 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,662 - INFO - Received request for A0001 info
+2025-03-20 13:44:26,664 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,664 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,665 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,665 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:44:26,666 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,667 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:44:26,668 - INFO - Received request for A0001 info
+2025-03-20 13:44:26,669 - INFO - Start to update A0001 config
+2025-03-20 13:44:26,669 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:05,478 - INFO - Agent started
+2025-03-20 13:45:07,730 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,730 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,732 - INFO - Start to update A0002 config
+2025-03-20 13:45:07,732 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,733 - INFO - Start to update A0003 config
+2025-03-20 13:45:07,734 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,735 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,735 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:45:07,736 - INFO - Received request for A0001 info
+2025-03-20 13:45:07,755 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,755 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,757 - INFO - Start to update A0002 config
+2025-03-20 13:45:07,757 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,758 - INFO - Start to update A0003 config
+2025-03-20 13:45:07,758 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,760 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,760 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,761 - INFO - Start to update A0002 config
+2025-03-20 13:45:07,761 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,762 - INFO - Start to update A0003 config
+2025-03-20 13:45:07,762 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,764 - INFO - Start to update A0002 config
+2025-03-20 13:45:07,765 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:45:07,766 - INFO - Received request for A0002 info
+2025-03-20 13:45:07,772 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,772 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,773 - INFO - Start to update A0002 config
+2025-03-20 13:45:07,774 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,775 - INFO - Start to update A0003 config
+2025-03-20 13:45:07,775 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,777 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,777 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,778 - INFO - Start to update A0002 config
+2025-03-20 13:45:07,778 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,780 - INFO - Start to update A0003 config
+2025-03-20 13:45:07,780 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,781 - INFO - Start to update A0003 config
+2025-03-20 13:45:07,781 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:45:07,782 - INFO - Received request for A0003 info
+2025-03-20 13:45:07,787 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,787 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,788 - INFO - Start to update A0002 config
+2025-03-20 13:45:07,789 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,790 - INFO - Start to update A0003 config
+2025-03-20 13:45:07,790 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,791 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,792 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,793 - INFO - Received request for A0001 info
+2025-03-20 13:45:07,794 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,794 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,795 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,796 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:45:07,797 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,797 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:45:07,798 - INFO - Received request for A0001 info
+2025-03-20 13:45:07,799 - INFO - Start to update A0001 config
+2025-03-20 13:45:07,799 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:47:25,352 - INFO - Agent started
+2025-03-20 13:47:49,895 - INFO - Agent started
+2025-03-20 13:48:06,325 - INFO - Agent started
+2025-03-20 13:48:12,565 - INFO - Agent started
+2025-03-20 13:48:15,113 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,113 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,115 - INFO - Start to update A0002 config
+2025-03-20 13:48:15,115 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,116 - INFO - Start to update A0003 config
+2025-03-20 13:48:15,116 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,118 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,118 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:48:15,119 - INFO - Received request for A0001 info
+2025-03-20 13:48:15,140 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,140 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,142 - INFO - Start to update A0002 config
+2025-03-20 13:48:15,142 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,143 - INFO - Start to update A0003 config
+2025-03-20 13:48:15,144 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,145 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,146 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,147 - INFO - Start to update A0002 config
+2025-03-20 13:48:15,147 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,148 - INFO - Start to update A0003 config
+2025-03-20 13:48:15,148 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,150 - INFO - Start to update A0002 config
+2025-03-20 13:48:15,150 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:48:15,151 - INFO - Received request for A0002 info
+2025-03-20 13:48:15,157 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,157 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,158 - INFO - Start to update A0002 config
+2025-03-20 13:48:15,158 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,159 - INFO - Start to update A0003 config
+2025-03-20 13:48:15,159 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,161 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,161 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,162 - INFO - Start to update A0002 config
+2025-03-20 13:48:15,162 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,163 - INFO - Start to update A0003 config
+2025-03-20 13:48:15,164 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,165 - INFO - Start to update A0003 config
+2025-03-20 13:48:15,165 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:48:15,166 - INFO - Received request for A0003 info
+2025-03-20 13:48:15,172 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,172 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,174 - INFO - Start to update A0002 config
+2025-03-20 13:48:15,174 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,175 - INFO - Start to update A0003 config
+2025-03-20 13:48:15,175 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,176 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,176 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,178 - INFO - Received request for A0001 info
+2025-03-20 13:48:15,179 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,179 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,180 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,180 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:15,181 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,182 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:48:15,183 - INFO - Received request for A0001 info
+2025-03-20 13:48:15,184 - INFO - Start to update A0001 config
+2025-03-20 13:48:15,184 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:38,785 - INFO - Start to update A0001 config
+2025-03-20 13:48:38,786 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:38,788 - INFO - Start to update A0002 config
+2025-03-20 13:48:38,789 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:38,791 - INFO - Start to update A0003 config
+2025-03-20 13:48:38,791 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:48:38,795 - INFO - Start to update A0001 config
+2025-03-20 13:48:38,795 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:48:38,797 - INFO - Received request for A0001 info
+2025-03-20 13:49:07,750 - INFO - Start to update A0001 config
+2025-03-20 13:49:07,752 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:49:07,763 - INFO - Start to update A0002 config
+2025-03-20 13:49:07,766 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:49:07,769 - INFO - Start to update A0003 config
+2025-03-20 13:49:07,769 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:49:17,741 - INFO - Start to update A0001 config
+2025-03-20 13:49:17,742 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:49:17,745 - INFO - Start to update A0002 config
+2025-03-20 13:49:17,745 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:49:17,747 - INFO - Start to update A0003 config
+2025-03-20 13:49:17,748 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:49:17,751 - INFO - Start to update A0001 config
+2025-03-20 13:49:17,751 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:49:17,754 - INFO - Received request for A0001 info
+2025-03-20 13:50:00,192 - INFO - Start to update A0001 config
+2025-03-20 13:50:00,194 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:00,198 - INFO - Start to update A0002 config
+2025-03-20 13:50:00,198 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:00,201 - INFO - Start to update A0003 config
+2025-03-20 13:50:00,201 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,557 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,558 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,560 - INFO - Start to update A0002 config
+2025-03-20 13:50:29,560 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,562 - INFO - Start to update A0003 config
+2025-03-20 13:50:29,562 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,564 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,564 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:50:29,566 - INFO - Received request for A0001 info
+2025-03-20 13:50:29,590 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,590 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,592 - INFO - Start to update A0002 config
+2025-03-20 13:50:29,593 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,594 - INFO - Start to update A0003 config
+2025-03-20 13:50:29,594 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,596 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,597 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,598 - INFO - Start to update A0002 config
+2025-03-20 13:50:29,599 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,600 - INFO - Start to update A0003 config
+2025-03-20 13:50:29,600 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,602 - INFO - Start to update A0002 config
+2025-03-20 13:50:29,602 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:50:29,603 - INFO - Received request for A0002 info
+2025-03-20 13:50:29,609 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,609 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,610 - INFO - Start to update A0002 config
+2025-03-20 13:50:29,611 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,612 - INFO - Start to update A0003 config
+2025-03-20 13:50:29,612 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,614 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,615 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,616 - INFO - Start to update A0002 config
+2025-03-20 13:50:29,616 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,618 - INFO - Start to update A0003 config
+2025-03-20 13:50:29,618 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,620 - INFO - Start to update A0003 config
+2025-03-20 13:50:29,620 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:50:29,622 - INFO - Received request for A0003 info
+2025-03-20 13:50:29,629 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,629 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,631 - INFO - Start to update A0002 config
+2025-03-20 13:50:29,631 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,632 - INFO - Start to update A0003 config
+2025-03-20 13:50:29,632 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,634 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,634 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,635 - INFO - Received request for A0001 info
+2025-03-20 13:50:29,638 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,638 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,640 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,641 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:50:29,642 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,642 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:50:29,644 - INFO - Received request for A0001 info
+2025-03-20 13:50:29,646 - INFO - Start to update A0001 config
+2025-03-20 13:50:29,646 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:51:26,252 - INFO - Agent started
+2025-03-20 13:51:29,313 - INFO - Start to update A0001 config
+2025-03-20 13:51:29,313 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:51:29,315 - INFO - Start to update A0002 config
+2025-03-20 13:51:29,315 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:51:29,317 - INFO - Start to update A0003 config
+2025-03-20 13:51:29,317 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:51:29,319 - INFO - Start to update A0002 config
+2025-03-20 13:51:29,319 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:51:29,320 - INFO - Received request for A0002 info
+2025-03-20 13:51:29,356 - INFO - Start to update A0001 config
+2025-03-20 13:51:29,356 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:51:29,358 - INFO - Start to update A0002 config
+2025-03-20 13:51:29,358 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:51:29,361 - INFO - Start to update A0003 config
+2025-03-20 13:51:29,361 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:51,235 - INFO - Agent started
+2025-03-20 13:52:55,334 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,334 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,335 - INFO - Start to update A0002 config
+2025-03-20 13:52:55,336 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,337 - INFO - Start to update A0003 config
+2025-03-20 13:52:55,337 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,338 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,338 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:52:55,339 - INFO - Received request for A0001 info
+2025-03-20 13:52:55,360 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,360 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,361 - INFO - Start to update A0002 config
+2025-03-20 13:52:55,362 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,364 - INFO - Start to update A0003 config
+2025-03-20 13:52:55,364 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,366 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,366 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,367 - INFO - Start to update A0002 config
+2025-03-20 13:52:55,368 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,369 - INFO - Start to update A0003 config
+2025-03-20 13:52:55,369 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,370 - INFO - Start to update A0002 config
+2025-03-20 13:52:55,371 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:52:55,372 - INFO - Received request for A0002 info
+2025-03-20 13:52:55,377 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,377 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,378 - INFO - Start to update A0002 config
+2025-03-20 13:52:55,378 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,379 - INFO - Start to update A0003 config
+2025-03-20 13:52:55,380 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,381 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,381 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,382 - INFO - Start to update A0002 config
+2025-03-20 13:52:55,382 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,383 - INFO - Start to update A0003 config
+2025-03-20 13:52:55,384 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,385 - INFO - Start to update A0003 config
+2025-03-20 13:52:55,385 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:52:55,386 - INFO - Received request for A0003 info
+2025-03-20 13:52:55,392 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,392 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,393 - INFO - Start to update A0002 config
+2025-03-20 13:52:55,393 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,394 - INFO - Start to update A0003 config
+2025-03-20 13:52:55,394 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,396 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,396 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,397 - INFO - Received request for A0001 info
+2025-03-20 13:52:55,398 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,399 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,400 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,400 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:52:55,401 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,401 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:52:55,402 - INFO - Received request for A0001 info
+2025-03-20 13:52:55,404 - INFO - Start to update A0001 config
+2025-03-20 13:52:55,404 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:53:57,203 - INFO - Agent started
+2025-03-20 13:54:06,426 - INFO - Agent started
+2025-03-20 13:54:06,959 - INFO - Start to update A0001 config
+2025-03-20 13:54:06,960 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,961 - INFO - Start to update A0002 config
+2025-03-20 13:54:06,961 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,963 - INFO - Start to update A0003 config
+2025-03-20 13:54:06,963 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,964 - INFO - Start to update A0001 config
+2025-03-20 13:54:06,964 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:06,965 - INFO - Received request for A0001 info
+2025-03-20 13:54:06,985 - INFO - Start to update A0001 config
+2025-03-20 13:54:06,985 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,986 - INFO - Start to update A0002 config
+2025-03-20 13:54:06,986 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,988 - INFO - Start to update A0003 config
+2025-03-20 13:54:06,988 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,990 - INFO - Start to update A0001 config
+2025-03-20 13:54:06,990 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,991 - INFO - Start to update A0002 config
+2025-03-20 13:54:06,991 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,992 - INFO - Start to update A0003 config
+2025-03-20 13:54:06,992 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:06,993 - INFO - Start to update A0002 config
+2025-03-20 13:54:06,994 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:06,995 - INFO - Received request for A0002 info
+2025-03-20 13:54:07,000 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,000 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,001 - INFO - Start to update A0002 config
+2025-03-20 13:54:07,001 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,002 - INFO - Start to update A0003 config
+2025-03-20 13:54:07,003 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,004 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,004 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,005 - INFO - Start to update A0002 config
+2025-03-20 13:54:07,005 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,007 - INFO - Start to update A0003 config
+2025-03-20 13:54:07,007 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,008 - INFO - Start to update A0003 config
+2025-03-20 13:54:07,008 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:07,009 - INFO - Received request for A0003 info
+2025-03-20 13:54:07,015 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,015 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,016 - INFO - Start to update A0002 config
+2025-03-20 13:54:07,017 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,018 - INFO - Start to update A0003 config
+2025-03-20 13:54:07,018 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,020 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,020 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,022 - INFO - Received request for A0001 info
+2025-03-20 13:54:07,023 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,023 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,025 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,025 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:07,027 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,027 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:07,028 - INFO - Received request for A0001 info
+2025-03-20 13:54:07,030 - INFO - Start to update A0001 config
+2025-03-20 13:54:07,030 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,804 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,805 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,807 - INFO - Start to update A0002 config
+2025-03-20 13:54:37,807 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,808 - INFO - Start to update A0003 config
+2025-03-20 13:54:37,808 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,809 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,809 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:37,810 - INFO - Received request for A0001 info
+2025-03-20 13:54:37,830 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,830 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,831 - INFO - Start to update A0002 config
+2025-03-20 13:54:37,831 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,832 - INFO - Start to update A0003 config
+2025-03-20 13:54:37,833 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,834 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,834 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,836 - INFO - Start to update A0002 config
+2025-03-20 13:54:37,836 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,837 - INFO - Start to update A0003 config
+2025-03-20 13:54:37,838 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,839 - INFO - Start to update A0002 config
+2025-03-20 13:54:37,839 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:37,840 - INFO - Received request for A0002 info
+2025-03-20 13:54:37,847 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,847 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,849 - INFO - Start to update A0002 config
+2025-03-20 13:54:37,849 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,851 - INFO - Start to update A0003 config
+2025-03-20 13:54:37,851 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,853 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,854 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,855 - INFO - Start to update A0002 config
+2025-03-20 13:54:37,856 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,857 - INFO - Start to update A0003 config
+2025-03-20 13:54:37,858 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,859 - INFO - Start to update A0003 config
+2025-03-20 13:54:37,859 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:37,862 - INFO - Received request for A0003 info
+2025-03-20 13:54:37,867 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,868 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,869 - INFO - Start to update A0002 config
+2025-03-20 13:54:37,870 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,871 - INFO - Start to update A0003 config
+2025-03-20 13:54:37,871 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,872 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,873 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,874 - INFO - Received request for A0001 info
+2025-03-20 13:54:37,875 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,876 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,877 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,877 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:54:37,879 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,879 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:54:37,880 - INFO - Received request for A0001 info
+2025-03-20 13:54:37,881 - INFO - Start to update A0001 config
+2025-03-20 13:54:37,882 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:55:39,353 - INFO - Agent started
+2025-03-20 13:55:51,855 - INFO - Agent started
+2025-03-20 13:56:26,402 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,403 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,405 - INFO - Start to update A0002 config
+2025-03-20 13:56:26,405 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,407 - INFO - Start to update A0003 config
+2025-03-20 13:56:26,407 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,408 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,408 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:56:26,409 - INFO - Received request for A0001 info
+2025-03-20 13:56:26,429 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,429 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,431 - INFO - Start to update A0002 config
+2025-03-20 13:56:26,431 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,432 - INFO - Start to update A0003 config
+2025-03-20 13:56:26,433 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,434 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,434 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,435 - INFO - Start to update A0002 config
+2025-03-20 13:56:26,436 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,437 - INFO - Start to update A0003 config
+2025-03-20 13:56:26,437 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,438 - INFO - Start to update A0002 config
+2025-03-20 13:56:26,438 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:56:26,439 - INFO - Received request for A0002 info
+2025-03-20 13:56:26,445 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,445 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,446 - INFO - Start to update A0002 config
+2025-03-20 13:56:26,446 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,447 - INFO - Start to update A0003 config
+2025-03-20 13:56:26,447 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,449 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,449 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,450 - INFO - Start to update A0002 config
+2025-03-20 13:56:26,450 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,452 - INFO - Start to update A0003 config
+2025-03-20 13:56:26,452 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,453 - INFO - Start to update A0003 config
+2025-03-20 13:56:26,453 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:56:26,454 - INFO - Received request for A0003 info
+2025-03-20 13:56:26,459 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,459 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,460 - INFO - Start to update A0002 config
+2025-03-20 13:56:26,460 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,461 - INFO - Start to update A0003 config
+2025-03-20 13:56:26,461 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,463 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,463 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,464 - INFO - Received request for A0001 info
+2025-03-20 13:56:26,466 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,466 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,467 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,467 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:56:26,469 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,469 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 13:56:26,470 - INFO - Received request for A0001 info
+2025-03-20 13:56:26,471 - INFO - Start to update A0001 config
+2025-03-20 13:56:26,471 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 13:59:25,200 - INFO - Agent started
+2025-03-20 14:00:00,912 - INFO - Agent started
+2025-03-20 14:00:03,119 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,120 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,121 - INFO - Start to update A0002 config
+2025-03-20 14:00:03,122 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,123 - INFO - Start to update A0003 config
+2025-03-20 14:00:03,123 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,125 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,125 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:03,126 - INFO - Received request for A0001 info
+2025-03-20 14:00:03,134 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,135 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,136 - INFO - Start to update A0002 config
+2025-03-20 14:00:03,136 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,138 - INFO - Start to update A0003 config
+2025-03-20 14:00:03,138 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,139 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,140 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,141 - INFO - Start to update A0002 config
+2025-03-20 14:00:03,141 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,142 - INFO - Start to update A0003 config
+2025-03-20 14:00:03,142 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,144 - INFO - Start to update A0002 config
+2025-03-20 14:00:03,144 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:03,145 - INFO - Received request for A0002 info
+2025-03-20 14:00:03,164 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,165 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,166 - INFO - Start to update A0002 config
+2025-03-20 14:00:03,166 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,167 - INFO - Start to update A0003 config
+2025-03-20 14:00:03,167 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,169 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,169 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,170 - INFO - Start to update A0002 config
+2025-03-20 14:00:03,170 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,171 - INFO - Start to update A0003 config
+2025-03-20 14:00:03,171 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,173 - INFO - Start to update A0003 config
+2025-03-20 14:00:03,173 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:03,174 - INFO - Received request for A0003 info
+2025-03-20 14:00:03,179 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,179 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,180 - INFO - Start to update A0002 config
+2025-03-20 14:00:03,180 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,181 - INFO - Start to update A0003 config
+2025-03-20 14:00:03,181 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,183 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,183 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,184 - INFO - Received request for A0001 info
+2025-03-20 14:00:03,185 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,185 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,187 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,187 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:03,188 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,188 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:03,189 - INFO - Received request for A0001 info
+2025-03-20 14:00:03,190 - INFO - Start to update A0001 config
+2025-03-20 14:00:03,190 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:25,738 - INFO - Agent started
+2025-03-20 14:00:35,008 - INFO - Agent started
+2025-03-20 14:00:36,832 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,832 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,835 - INFO - Start to update A0002 config
+2025-03-20 14:00:36,835 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,836 - INFO - Start to update A0003 config
+2025-03-20 14:00:36,837 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,838 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,839 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:36,841 - INFO - Received request for A0001 info
+2025-03-20 14:00:36,845 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,846 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,847 - INFO - Start to update A0002 config
+2025-03-20 14:00:36,848 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,849 - INFO - Start to update A0003 config
+2025-03-20 14:00:36,849 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,851 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,852 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,853 - INFO - Start to update A0002 config
+2025-03-20 14:00:36,853 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,854 - INFO - Start to update A0003 config
+2025-03-20 14:00:36,854 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,856 - INFO - Start to update A0002 config
+2025-03-20 14:00:36,856 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:36,857 - INFO - Received request for A0002 info
+2025-03-20 14:00:36,860 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,860 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,861 - INFO - Start to update A0002 config
+2025-03-20 14:00:36,861 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,862 - INFO - Start to update A0003 config
+2025-03-20 14:00:36,862 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,864 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,864 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,865 - INFO - Start to update A0002 config
+2025-03-20 14:00:36,865 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,866 - INFO - Start to update A0003 config
+2025-03-20 14:00:36,866 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,868 - INFO - Start to update A0003 config
+2025-03-20 14:00:36,868 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:36,869 - INFO - Received request for A0003 info
+2025-03-20 14:00:36,872 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,872 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,873 - INFO - Start to update A0002 config
+2025-03-20 14:00:36,873 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,875 - INFO - Start to update A0003 config
+2025-03-20 14:00:36,875 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,876 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,876 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,878 - INFO - Received request for A0001 info
+2025-03-20 14:00:36,879 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,879 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,880 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,880 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}
+2025-03-20 14:00:36,882 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,882 - INFO - Configuration updated: {'server_version': 'v1.1', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 2}
+2025-03-20 14:00:36,883 - INFO - Received request for A0001 info
+2025-03-20 14:00:36,884 - INFO - Start to update A0001 config
+2025-03-20 14:00:36,884 - INFO - Configuration updated: {'server_version': '1.0', 'server_IP': '10.100.10.2', 'server_port': 5001, 'schedule': 60}

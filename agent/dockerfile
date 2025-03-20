@@ -1,0 +1,24 @@
+# Use a lightweight Python image
+FROM python:3.9-slim as base
+
+# Set environment variables to reduce logs and cache
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONFAULTHANDLER=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+# Set working directory inside the container
+WORKDIR /app
+
+# Copy requirements file and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire app directory
+COPY . .
+
+# Expose the correct port (match Flask app)
+EXPOSE 5002
+
+# Run Flask app using Gunicorn with 4 worker processes
+CMD ["gunicorn", "--bind", "0.0.0.0:5002", "--workers", "4", "app:app"]

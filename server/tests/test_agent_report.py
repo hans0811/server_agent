@@ -25,6 +25,7 @@ def test_valid_agent_report():
         "os": "Linux",
         "os_version": "Ubuntu 20.04",
         "ip": "192.168.1.100",
+        "server_version": "1.0",
         "python_version": "3.9",
         "installed_software": ["jenkins", "docker"],
         "timestamp": 1710873456

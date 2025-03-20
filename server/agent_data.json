@@ -11,5 +11,50 @@
             "docker"
         ],
         "timestamp": "2024-03-19 18:37:36"
+    },
+    "A0001": {
+        "agent_id": "A0001",
+        "hostname": "debian-agent",
+        "ip": "10.100.10.11",
+        "os": "debian",
+        "os_version": "11",
+        "server_version": "v1.1",
+        "python_version": "3.9",
+        "installed_software": [
+            "nginx",
+            "mysql-server",
+            "python3"
+        ],
+        "timestamp": "2025-03-19 22:00:36"
+    },
+    "A0002": {
+        "agent_id": "A0002",
+        "hostname": "centos-agent",
+        "ip": "10.100.10.12",
+        "os": "centos",
+        "os_version": "7.9",
+        "server_version": "v1.1",
+        "python_version": "3.6",
+        "installed_software": [
+            "httpd",
+            "postgresql",
+            "python3"
+        ],
+        "timestamp": "2025-03-19 22:00:36"
+    },
+    "A0003": {
+        "agent_id": "A0003",
+        "hostname": "windows-agent",
+        "ip": "10.100.10.13",
+        "os": "windows",
+        "os_version": "10",
+        "server_version": "v1.1",
+        "python_version": "3.8",
+        "installed_software": [
+            "Chrome",
+            "VSCode",
+            "Notepad++"
+        ],
+        "timestamp": "2025-03-19 22:00:36"
     }
 }

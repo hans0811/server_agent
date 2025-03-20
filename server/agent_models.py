@@ -30,6 +30,7 @@ class AgentSchema(BaseModel):
     ip: str
     os: str
     os_version: str
+    server_version: str
     python_version: str
     installed_software: List[str]
     timestamp: str
