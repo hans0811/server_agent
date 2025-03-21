@@ -18,11 +18,47 @@ This project consists of a **Server** and multiple **Agents** that communicate v
 
 ---
 
+## Tech Stack
+
+1. Python 3.9 - Flask
+2. Jenkins
+3. Docker
+---
+
+## Project Structure
+```
+CICD/
+│── agent/                # Agent component
+│   │── logs/             # Agent logs
+│   │── agent_mock.py     # Simulated agent for testing
+│   │── app.py            # Main agent script
+│   │── dockerfile        # Docker setup for agent
+│   │── requirements.txt  # Dependencies
+│   │── utility.py        # Helper functions
+│
+│── server/               # Server component
+│   │── logs/             # Server logs
+│   │── tests/            # Unit tests
+│   │── app.py            # Main server script
+│   │── config.py         # Configuration settings
+│   │── views.py          # API routes
+│   │── dockerfile        # Docker setup for server
+│   │── requirements.txt  # Dependencies
+│
+│── CI/                   # CI/CD Pipeline setup
+│   │── jenkinsfile.groovy# Jenkins pipeline script
+│
+│── docker-compose.yml    # Docker Compose configuration
+│── README.md             # Project documentation
+```
+
+---
+
 ## Setup & Deployment
 
 ### Clone Repository
 ```sh
-git clone https://github.com/hans0811/server_agent/tree/TestGithub
+git clone https://github.com/hans0811/server_agent/tree/master
 ```
 
 
@@ -31,3 +67,7 @@ git clone https://github.com/hans0811/server_agent/tree/TestGithub
 docker-compose up
 ```
 
+### PyTest
+```sh
+pytest -s ./tests/ --disable-warnings -v
+```
